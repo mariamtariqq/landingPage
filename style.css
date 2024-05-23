@@ -1,0 +1,15 @@
+
+
+@media screen and (min-width: 1024px) {
+    #page1 {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    }
+    
+    #page3 {
+        clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 85%);
+    }
+    
+    #page4 {
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+    }
+}
