@@ -1,6 +1,0 @@
-Run this command on VS Code Terminal to run website in real time on laptop and cellphone in real time
-Before run this command download Nodejs
-
-browser-sync start --server --repository --files "**\*"
-
-

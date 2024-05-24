@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,14 +18,16 @@
 
 <body>
     <!-- Page 1 -->
-    <div id="page1" style="background-image: url('home-page.jpg');"
-        class="bg-no-repeat bg-center bg-cover">
+    <div id="page1" style="background-image: url('images/home-page.jpg');" class="bg-no-repeat bg-center bg-cover">
         <div style="background-color: rgba(135, 206, 235, 0.5);">
-            <nav class="flex justify-center pt-4">
-                <img class="rounded-full w-12" src="m-logo.jpg" />
-                <span class="pt-4 text-white text-nowrap lg:text-xl mx-3 font-bold ">M E L O N</span>
+            <nav class="flex justify-between pt-4 px-5 sm:px-10 lg:px-20 xl:px-28">
+                <div class="flex items-center">
+                    <img class="rounded-full w-12" src="images/m-logo.jpg" />
+                    <span class="text-white text-nowrap lg:text-xl px-3 font-bold ">M E L O N</span>
+                </div>
 
-                <ul class="text-white px-28 py-4 hidden lg:flex space-x-11 justify-center text-xs">
+                <ul
+                    class="text-white py-4 hidden lg:flex space-x-8 xl:space-x-11 justify-center text-xs">
                     <li class="cursor-pointer hover:text-blue-900">HOME</li>
                     <li class="cursor-pointer hover:text-blue-900">SERVICE</li>
                     <li class="cursor-pointer hover:text-blue-900">ABOUT</li>
@@ -37,7 +39,7 @@
                 </ul>
             </nav>
 
-            <div class="text-white px-6 lg:px-28 pt-20">
+            <div class="text-white px-5 sm:px-10 lg:px-28 pt-20">
                 <div class="text-3xl text-center md:text-left text-nowrap lg:text-5xl font-bold">
                     <p class="py-4">CREATIVE STUDIO</p>
                     <p>DESIGN WORLDWIDE</p>
@@ -47,7 +49,7 @@
                     eligendi voluptatem quo aut hic quaerat.</p>
             </div>
 
-            <div class="px-6 lg:px-28 text-center md:text-left pt-8 pb-32">
+            <div class="px-5 sm:px-10 lg:px-28 text-center md:text-left pt-8 pb-32">
                 <a class="text-white text-lg font-bold border-b-4" href="#">Learn more</a>
             </div>
         </div>
@@ -56,7 +58,7 @@
 
     <!-- page 2 -->
     <div class="flex flex-wrap justify-center gap-7">
-        <div class="flex gap-6 pt-2 justify-center flex-col items-center group">
+        <div class="flex gap-6 pt-10 justify-center flex-col items-center group">
             <div class="flex flex-col">
                 <div id="page2" class="w-[170px] h-[130px] bg-white flex items-center justify-center"
                     style=" clip-path: polygon(50% 0%, 85% 25%, 85% 75%, 50% 100%, 15% 75%, 15% 25%);">
@@ -145,13 +147,15 @@
 
 
     <!-- Page 3 -->
-    <div id="page3" style="background-image: url('page-3.jpg');"
+    <div id="page3" style="background-image: url('images/page-3.jpg');"
         class="px-4 py-16 bg-no-repeat bg-center bg-cover">
         <div class="w-[90%] lg:w-[50%] text-white flex flex-col justify-center text-center lg:text-left mx-auto">
             <p class="text-3xl font-bold py-2">Gloriosa Ostentatio in constituendo summo</p>
             <p style="letter-spacing: 5px; word-spacing: 5px;">AM SI BEATUS UMQUAM FUISSET BEATAM VITAM</p>
             <p class="text-xs py-4 leading-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae iure
-                soluta neque nobis non hic perferendis impedit rem aut optio inventore harum officiis, dicta odit omnis consequatur, dolorem debitis eum Lodi enim magnam itaque sed ratione dolores odit totam laudantiagni porro neque delectus unde.</p>
+                soluta neque nobis non hic perferendis impedit rem aut optio inventore harum officiis, dicta odit omnis
+                consequatur, dolorem debitis eum Lodi enim magnam itaque sed ratione dolores odit totam laudantiagni
+                porro neque delectus unde.</p>
             <div class="pb-8 w-full">
                 <a class="text-xs font-bold border-b border-white w-fit" href="#">LEARN MORE</a>
             </div>
@@ -160,7 +164,7 @@
     </div>
 
     <!-- page 4 -->
-    <div id="page4" class="flex justify-center gap-1 lg:gap-20 text-center items-center py-12">
+    <div id="page4" class="flex flex-wrap justify-center px-4 gap-10 lg:gap-20 text-center items-center py-12">
         <div>
             <i class="fa-regular fa-clock text-sky-700 text-lg lg:text-3xl"></i>
             <p class="lg:py-2 font-bold text-lg lg:text-3xl">1248</p>
@@ -184,8 +188,7 @@
     </div>
 
     <!-- Page 5 -->
-    <div style="background-image: url('page-5.jpg'); clip-path: polygon(0% 10%, 100% 0%, 100% 91%, 0% 100%);"
-        class="bg-cover bg-center bg-no-repeat">
+    <div id="page5" style="background-image: url('images/page-5.jpg');" class="bg-cover bg-center bg-no-repeat">
 
         <div style="background-color: rgba(0, 0, 0, 0.7);">
             <div class="flex gap-5 text-xl justify-center py-20" style="letter-spacing: 5px; word-spacing: 5px;">
@@ -193,10 +196,10 @@
                 <p class="text-blue-400">PROJECTS</p>
             </div>
 
-            <div class="flex justify-center gap-4 w-[70%] mx-auto">
-                <div class=" w-full flex flex-col gap-2">
-                    <div class="relative group overflow-hidden">
-                        <img style="aspect-ratio: 4/2; object-fit: center;" width="100%" src="img1.jpg" />
+            <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-4 w-[80%] lg:w-[70%] mx-auto">
+                <div class="w-full flex md:flex-col gap-2">
+                    <div class="relative group overflow-hidden w-full">
+                        <img class="aspect-square md:aspect-[4/2]" style="object-fit: cover;" width="100%" src="images/img1.jpg" />
                         <div class="w-0 group-hover:w-full absolute duration-500 h-full top-0 left-0"
                             style="background-color: rgba(49, 148, 209, 0.9);">
                             <div class="hidden group-hover:flex flex-col h-full justify-center items-center">
@@ -205,8 +208,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="relative group overflow-hidden">
-                        <img style="aspect-ratio: 1/1; object-fit: cover;" width="100%" src="img2.jpg" />
+                    <div class="relative group overflow-hidden w-full">
+                        <img class="aspect-square" style="object-fit: cover;" width="100%" src="images/img2.jpg" />
                         <div class="w-0 group-hover:w-full absolute duration-500 h-full top-0 left-0"
                             style="background-color: rgba(49, 148, 209, 0.9);">
                             <div class="hidden group-hover:flex flex-col h-full justify-center items-center">
@@ -216,9 +219,9 @@
                         </div>
                     </div>
                 </div>
-                <div class=" w-full flex flex-col gap-2">
-                    <div class="relative group overflow-hidden">
-                        <img style="aspect-ratio: 1/1; object-fit: cover;" width="100%" src="img3.avif" />
+                <div class=" w-full flex md:flex-col gap-2">
+                    <div class="relative group overflow-hidden w-full">
+                        <img class="aspect-square md:aspect-[1/1]" style=" object-fit: cover;" width="100%" src="images/img3.avif" />
                         <div class="w-0 group-hover:w-full absolute duration-500 h-full top-0 left-0"
                             style="background-color: rgba(49, 148, 209, 0.9);">
                             <div class="hidden group-hover:flex flex-col h-full justify-center items-center">
@@ -227,8 +230,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="relative group overflow-hidden">
-                        <img style="aspect-ratio: 4/2; object-fit: cover;" width="100%" src="img4.jpg" />
+                    <div class="relative group overflow-hidden w-full">
+                        <img class="aspect-square md:aspect-[4/2]" style="object-fit: cover;" width="100%" src="images/img4.jpg" />
                         <div class="w-0 group-hover:w-full absolute duration-500 h-full top-0 left-0"
                             style="background-color: rgba(49, 148, 209, 0.9);">
                             <div class="hidden group-hover:flex flex-col h-full justify-center items-center">
@@ -238,9 +241,9 @@
                         </div>
                     </div>
                 </div>
-                <div class=" w-full flex flex-col gap-2">
-                    <div class="relative group overflow-hidden">
-                        <img style="aspect-ratio: 4/2; object-fit: cover;" width="100%" src="img5.jpg" />
+                <div class=" w-full flex md:flex-col gap-2">
+                    <div class="relative group overflow-hidden w-full">
+                        <img class="aspect-square md:aspect-[4/2]" style="object-fit: cover;" width="100%" src="images/img5.jpg" />
                         <div class="w-0 group-hover:w-full absolute duration-500 h-full top-0 left-0"
                             style="background-color: rgba(49, 148, 209, 0.9);">
                             <div class="hidden group-hover:flex flex-col h-full justify-center items-center">
@@ -249,8 +252,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="relative group overflow-hidden">
-                        <img style="aspect-ratio: 1/1; object-fit: cover;" width="100%" src="img6.jpg" />
+                    <div class="relative group overflow-hidden w-full">
+                        <img class="aspect-square md:aspect-[1/1]" style="object-fit: cover;" width="100%" src="images/img6.jpg" />
                         <div class="w-0 group-hover:w-full absolute duration-500 h-full top-0 left-0"
                             style="background-color: rgba(49, 148, 209, 0.9);">
                             <div class="hidden group-hover:flex flex-col h-full justify-center items-center">
@@ -263,7 +266,8 @@
             </div>
 
             <div class="py-12">
-                <a href="#" class=" flex justify-center text-xs border-b text-white w-fit mx-auto font-bold mb-12">View All</a>
+                <a href="#"
+                    class=" flex justify-center text-xs border-b text-white w-fit mx-auto font-bold mb-20 lg:mb-12">View All</a>
             </div>
         </div>
 
@@ -271,13 +275,13 @@
 
 
     <!-- Page 6 -->
-    <div class="bg-sky-400 -mt-20" style="clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 92%);">
+    <div id="page6" class="bg-sky-400 -mt-20">
         <div class="flex justify-center gap-5 text-xl pt-20" style="letter-spacing: 5px; word-spacing: 5px;">
             <p class="text-white">OUR</p>
             <p class="text-black">PRICING</p>
         </div>
 
-        <div class="flex gap-4 flex-wrap justify-center py-20">
+        <div class="flex gap-4 px-6 flex-wrap justify-center py-20">
             <div class="flex flex-col justify-center items-center w-[200px] h-[470px] bg-white ">
                 <div
                     class="flex flex-col items-center justify-center py-2 bg-sky-400 rounded-full w-[100px] h-[100px] text-white font-bold">
@@ -353,24 +357,25 @@
     </div>
 
     <!-- Page 7 -->
-    <div class="-mt-16" style="clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);">
-        <div class="flex justify-center gap-5 text-xl pt-20" style="letter-spacing: 5px; word-spacing: 5px;">
-            <p class="text-black">TALENTED TEAM</p>
-            <p class="text-sky-400">MEMBERS</p>
+    <div id="page7" class="pt-2 lg:-mt-16">
+        <div class="flex text-center justify-center flex-wrap px-4 gap-2 lg:gap-5 text-lg lg:text-xl pt-20"
+            style="letter-spacing: 5px; word-spacing: 5px;">
+            <span class="text-black">TALENTED TEAM</span>
+            <span class="text-sky-400">MEMBERS</span>
         </div>
 
-        <div class="flex items-start gap-5 pb-24 pt-16 w-[70%] mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 pb-24 pt-16 w-[70%] mx-auto">
             <div class="w-full group">
                 <div class="relative">
-                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="jenifer.jpg" />
-                    <div class="bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full bottom-0 right-0"
+                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="images/jenifer.jpg" />
+                    <div class=" bg-black md:bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full bottom-0 right-0"
                         style="clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);">JENIFER</div>
                 </div>
-                <div class="group-hover:bg-black text-white text-right px-2 pb-5 h-0 group-hover:h-20 duration-500">
-                    <div class="group-hover:block hidden">
+                <div class="bg-black md:bg-transparent group-hover:bg-black text-white text-right px-2 pb-5 h-20 md:h-0 group-hover:h-20 duration-500">
+                    <div class="group-hover:block block md:hidden">
                         <p class="text-xs">SENIOR DEVELOPER</p>
                     </div>
-                    <div class="gap-2 pt-2 group-hover:flex justify-end hidden">
+                    <div class="gap-2 pt-2 group-hover:flex justify-end flex md:hidden">
                         <i class="fa-brands fa-facebook-f border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-twitter border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-google-plus-g border border-white p-2 hover:bg-sky-400"></i>
@@ -381,16 +386,16 @@
             </div>
             <div class="w-full group">
                 <div class="relative">
-                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="mike.avif" />
-                    <div class="bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full bottom-0 right-0"
+                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="images/mike.avif" />
+                    <div class="bg-black md:bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full -mb-[1px] bottom-0 right-0"
                         style="clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);">MIKE</div>
                 </div>
 
-                <div class="group-hover:bg-black text-white text-right px-2 pb-5 h-0 group-hover:h-20 duration-500">
-                    <div class="group-hover:block hidden">
+                <div class="bg-black md:bg-transparent group-hover:bg-black text-white text-right px-2 pb-5 md:h-0 group-hover:h-20 duration-500">
+                    <div class="group-hover:block block md:hidden">
                         <p class="text-xs">SENIOR DEVELOPER</p>
                     </div>
-                    <div class="gap-2 pt-2 group-hover:flex justify-end hidden">
+                    <div class="gap-2 pt-2 group-hover:flex justify-end flex md:hidden">
                         <i class="fa-brands fa-facebook-f border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-twitter border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-google-plus-g border border-white p-2 hover:bg-sky-400"></i>
@@ -402,15 +407,15 @@
 
             <div class="w-full group">
                 <div class="relative">
-                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="joseph.avif" />
-                    <div class="bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full bottom-0 right-0"
+                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="images/joseph.avif" />
+                    <div class="bg-black md:bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full -mb-[1px] bottom-0 right-0"
                         style="clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);">JOSEPH</div>
                 </div>
-                <div class="group-hover:bg-black text-white text-right px-2 pb-5 h-0 group-hover:h-20 duration-500">
-                    <div class="group-hover:block hidden">
+                <div class="bg-black md:bg-transparent group-hover:bg-black text-white text-right px-2 pb-5 md:h-0 group-hover:h-20 duration-500">
+                    <div class="group-hover:block block md:hidden">
                         <p class="text-xs">SENIOR DEVELOPER</p>
                     </div>
-                    <div class="gap-2 pt-2 group-hover:flex justify-end hidden">
+                    <div class="gap-2 pt-2 group-hover:flex justify-end flex md:hidden">
                         <i class="fa-brands fa-facebook-f border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-twitter border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-google-plus-g border border-white p-2 hover:bg-sky-400"></i>
@@ -420,15 +425,15 @@
             </div>
             <div class="w-full group">
                 <div class="relative">
-                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="antony.jpg" />
-                    <div class="bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full bottom-0 right-0"
+                    <img width="100%" style="object-fit: cover; aspect-ratio: 4/5;" src="images/antony.jpg" />
+                    <div class="bg-black md:bg-sky-400 group-hover:bg-black text-white text-md text-right pt-10 pb-2 px-4 absolute w-full -mb-[1px] bottom-0 right-0"
                         style="clip-path: polygon(0% 100%, 100% 0%, 100% 100%, 0% 100%);">ANTONY</div>
                 </div>
-                <div class="group-hover:bg-black text-white text-right px-2 pb-5 h-0 group-hover:h-20 duration-500">
-                    <div class="group-hover:block hidden">
+                <div class="bg-black md:bg-transparent group-hover:bg-black text-white text-right px-2 pb-5 md:h-0 group-hover:h-20 duration-500">
+                    <div class="group-hover:block block md:hidden">
                         <p class="text-xs">SENIOR DEVELOPER</p>
                     </div>
-                    <div class="gap-2 pt-2 group-hover:flex justify-end hidden">
+                    <div class="gap-2 pt-2 group-hover:flex justify-end flex md:hidden">
                         <i class="fa-brands fa-facebook-f border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-twitter border border-white p-2 hover:bg-sky-400"></i>
                         <i class="fa-brands fa-google-plus-g border border-white p-2 hover:bg-sky-400"></i>
@@ -440,8 +445,7 @@
     </div>
 
     <!-- Page 8 -->
-    <div style="background-image: url('page-8.jpg'); clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);"
-        class="bg-cover bg-center bg-no-repeat -mt-16">
+    <div id="page8" style="background-image: url('images/page-8.jpg');" class="bg-cover bg-center bg-no-repeat -mt-16">
 
         <div style="background-color: rgba(135, 206, 235, 0.7);">
             <div class="flex justify-center gap-5 text-xl pt-20" style="letter-spacing: 5px; word-spacing: 5px;">
@@ -449,12 +453,19 @@
             </div>
 
             <div class="flex justify-center items-center gap-10 pt-12 rounded-full">
-                <div class="w-12"><img class="object-cover h-12 rounded-full" width="100%" src="face1.jpg" /></div>
-                <div class="w-20"><img class="object-cover h-20 rounded-full" width="100%" src="face2.jpg" /></div>
-                <div class="w-12"><img class="object-cover h-12 rounded-full" width="100%" src="face3.avif" /></div>
+                <div class="w-12">
+                    <img class="object-cover h-12 rounded-full" width="100%" src="images/face1.jpg" />
+                </div>
+                <div class="w-20">
+                    <img class="object-cover h-20 rounded-full" width="100%" src="images/face2.jpg" />
+                </div>
+                <div class="w-12">
+                    <img class="object-cover h-12 rounded-full" width="100%" src="images/face3.avif" />
+                </div>
             </div>
 
-            <div class="flex flex-col justify-center items-center text-white text-xs w-[500px] mx-auto pb-16 pt-4">
+            <div
+                class="flex flex-col justify-center items-center text-white text-xs px-4 w-[290px] md:w-[500px] mx-auto pb-16 pt-4">
                 <h1 class="font-bold">HERMOINE GRANGER</h1>
                 <p class="py-1">CEO - Babamarine</p>
                 <p class="flex justify-center text-center mx-auto py-2"> sit amet consectetur adipisicing elit. Saepe
@@ -466,27 +477,26 @@
     </div>
 
     <!-- Page 9 -->
-    <div style="clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);">
-        <div class="flex justify-center items-center gap-5 text-xl pt-20"
+    <div id="page9">
+        <div class="flex justify-center flex-wrap px-4 items-center gap-5 text-xl pt-20"
             style="letter-spacing: 5px; word-spacing: 5px;">
-            <p class="text-black">OUR UTILITY</p>
+            <p class="text-black dark:text-white">OUR UTILITY</p>
             <p class="text-sky-400">PARTNERS</p>
         </div>
-        <div class="flex gap-4 justify-center items-center py-20">
-            <div><img src="page9img1.jfif" /></div>
-            <div><img src="page9img2.jfif" /></div>
-            <div><img src="page9img1.jfif" /></div>
-            <div><img src="page9img2.jfif" /></div>
-            <div><img src="page9img1.jfif" /></div>
+        <div class="flex gap-4 px-6 flex-wrap justify-center items-center py-20">
+            <div><img src="images/page9img1.jfif" /></div>
+            <div><img src="images/page9img2.jfif" /></div>
+            <div><img src="images/page9img1.jfif" /></div>
+            <div><img src="images/page9img2.jfif" /></div>
+            <div><img src="images/page9img1.jfif" /></div>
         </div>
     </div>
 
     <!-- Page 10 -->
-    <div style="background-image: url('contact.jpg'); clip-path: polygon(0% 0%, 100% 0%, 100% 86%, 0% 100%);"
-        class="bg-cover bg-no-repeat bg-center">
+    <div id="page10" style="background-image: url('images/contact.jpg');" class="bg-cover bg-no-repeat bg-top">
         <div style="background-color: rgba(0, 0, 0, 0.7);" class="pb-20">
 
-            <div class="w-[60%] mx-auto">
+            <div class="w-[70%] md:w-[60%] mx-auto">
                 <div class=" flex justify-center items-center gap-5 text-xl pt-20"
                     style="letter-spacing: 5px; word-spacing: 5px;">
                     <p class="text-white">CONTACT</p>
@@ -519,17 +529,20 @@
                     </div>
                 </div>
 
-                <div class=" flex justify-between gap-6 text-white text-xs mt-8">
+                <div class="flex flex-col md:flex-row justify-between gap-2 md:gap-6 text-white text-xs mt-8">
                     <div class="w-full">
-                        <input class="flex w-full mt-2 border-0 bg-transparent border-b py-2 placeholder:text-white"
+                        <input
+                            class="flex w-full mt-2 border-0 outline-none bg-transparent border-b py-2 placeholder:text-white"
                             type="text" placeholder="Name" />
                     </div>
                     <div class="w-full">
-                        <input class="flex w-full mt-2 border-0 bg-transparent border-b py-2 placeholder:text-white"
+                        <input
+                            class="flex w-full mt-2 border-0 outline-none bg-transparent border-b py-2 placeholder:text-white"
                             type="text" placeholder="Email" />
                     </div>
                     <div class="w-full">
-                        <input class="flex w-full mt-2 border-0 bg-transparent border-b py-2 placeholder:text-white"
+                        <input
+                            class="flex w-full mt-2 border-0 outline-none bg-transparent border-b py-2 placeholder:text-white"
                             type="text" placeholder="Subject" />
                     </div>
                 </div>
@@ -538,7 +551,7 @@
                     <textarea placeholder="Message" rows="5"
                         class="placeholder:text-white bg-transparent w-full border-b outline-none"></textarea>
                 </div>
-                <div class="mt-4 mb-6 text-right">
+                <div class="mt-4 mb-8 lg:mb-6 text-right">
                     <button class="text-white text-xs border border-white py-2 px-2 font-semibold">SEND MESSAGE</button>
                 </div>
             </div>
@@ -547,7 +560,7 @@
     </div>
 
     <!-- Page 11 -->
-    <div class="-mt-20 h-[400px]" style="clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 75%);">
+    <div id="page11" class="-mt-20 h-[400px]">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217898.05622262493!2d73.08930095!3d31.423571499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a895a55ca9%3A0xdec58f88932671c6!2sFaisalabad%2C%20Punjab!5e0!3m2!1sen!2s!4v1716360322625!5m2!1sen!2s"
             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
@@ -555,12 +568,12 @@
     </div>
 
     <!-- Page 12 -->
-    <div class="-mt-28 bg-sky-400" style="clip-path: polygon(0% 0%, 100% 23%, 100% 100%, 0% 100%);">
+    <div id="page12" class="sm:-mt-28 bg-sky-400 flex px-5 overflow-x-hidden">
         <div
-            class="flex justify-center mx-auto text-white text-sm grid grid-cols-12 w-[70%] gap-10 pt-28 pb-16 flex justify-center">
-            <div class="col-span-4">
+            class="text-white text-sm flex justify-center flex-col sm:grid grid-cols-12 lg:w-[80%] xl:w-[70%] mx-auto gap-10 pt-16 sm:pt-40 pb-16">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-4">
                 <div class="flex items-center pb-4">
-                    <img class="rounded-full w-8" src="m-logo.jpg" />
+                    <img class="rounded-full w-8" src="images/m-logo.jpg" />
                     <span class="mx-2 font-bold">M E L O N</span>
                 </div>
                 <div>
@@ -579,7 +592,7 @@
                         class="fa-brands fa-instagram w-8 h-8 bg-black hover:bg-sky-800 text-white flex justify-center items-center"></i>
                 </div>
             </div>
-            <div class="col-span-2">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-2">
                 <h1 class="font-bold">QUICK LINKS</h1>
                 <div class="flex flex-col py-4">
                     <a class="py-2" href="#">About</a>
@@ -589,23 +602,23 @@
                     <a class="py-2" href="#">Contact us</a>
                 </div>
             </div>
-            <div class="col-span-3">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
                 <h1 class="font-bold pb-6">TWITTER FEED</h1>
                 <p>Reiciendis natus porro itaque soluta animi temporibus repudiandae laborum dolor</p>
                 <p class="text-black text-xs py-2">22 MIN AGO</p>
                 <p>odit harum libero maxime dicta eius! Culpa atemporibus corporis cum tenetur!</p>
                 <p class="text-black text-xs py-2">22 MIN AGO</p>
             </div>
-            <div class="col-span-3">
+            <div class="col-span-12 sm:col-span-6 lg:col-span-3">
                 <h1 class="font-bold pb-6">INSTAGRAM FEED</h1>
 
                 <div class="grid grid-cols-2 lg:grid-cols-3">
-                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="img1.jpg" />
-                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="img2.jpg" />
-                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="img3.avif" />
-                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="img4.jpg" />
-                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="img5.jpg" />
-                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="img6.jpg" />
+                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="images/img1.jpg" />
+                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="images/img2.jpg" />
+                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="images/img3.avif" />
+                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="images/img4.jpg" />
+                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="images/img5.jpg" />
+                    <img width="100%" style="aspect-ratio: 1/1; object-fit: cover;" src="images/img6.jpg" />
                 </div>
 
             </div>
