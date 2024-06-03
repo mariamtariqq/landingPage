@@ -1,50 +1,53 @@
-
-
-
 @media screen and (min-width: 1024px) {
-    #page1 {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
-    }
-    
-    #page3 {
-        clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 85%);
-    }
-    
-    #page4 {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
-    }
+  #page1 {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+  }
 
-    #page5 {
-        clip-path: polygon(0% 10%, 100% 0%, 100% 91%, 0% 100%);
-    }
+  #page3 {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 85%);
+  }
 
-    #page6 {
-        clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 92%);
-    }
+  #page4 {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+  }
 
-    #page7 {
-        clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%)
-    }
+  #page5 {
+    clip-path: polygon(0% 10%, 100% 0%, 100% 91%, 0% 100%);
+  }
 
-    #page8 {
-        clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
-    }
+  #page6 {
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 92%);
+  }
 
-    #page9 {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
-    }
+  #page7 {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+  }
 
-    #page10 {
-        clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 0% 100%);
-    }
+  #page8 {
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+  }
 
-    #page11 {
-        clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 75%);
-    }
+  #page9 {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+  }
 
-    #page12 {
-        clip-path: polygon(0% 0%, 100% 23%, 100% 100%, 0% 100%);
-    }
+  #page10 {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 0% 100%);
+  }
 
-    
+  #page11 {
+    clip-path: polygon(0% 20%, 100% 0%, 100% 100%, 0% 75%);
+  }
+
+  #page12 {
+    clip-path: polygon(0% 0%, 100% 23%, 100% 100%, 0% 100%);
+  }
+}
+
+  
+#navbar.yesHidden{
+  left: -300px;
+}
+#navbar.notHidden{
+  left: 0px;
 }
